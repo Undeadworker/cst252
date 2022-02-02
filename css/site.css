@@ -1,0 +1,61 @@
+body {
+    font-family: "comic sans ms", "san serif";
+    background-color: black;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: lime;
+    border: solid 1px #39ff14;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: "comic sans ms", monospace;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: lime;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+p {
+  color: #39ff14;
+}
+
+h1 {
+  color: #39ff14;
+}
+
+title {
+  color: #39ff14;
+}
+
+h2 {
+  color: #39ff14;
+}
+img {
+    float: left;
+    width: 400px;
+    height: auto;
+}
+img#vector{
+  border: solid 10px #39ff14;
+    transition: all 3s ease-out;
+}
+img#vector:hover{
+  border: solid 5px #39ff14;
+  transition: all 3s ease-out;
+  width: 100%;
+}
