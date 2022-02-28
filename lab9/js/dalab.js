@@ -30,9 +30,3 @@ button.addEventListener('click', alertClick);
 John.addEventListener('click', Levent);
 
 Bull.addEventListener('click', LLevent);
-
-document.writeln();
-
-document.writeln();
-
-document.writeln();
