@@ -1,0 +1,137 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    background-color: black;
+    padding: 25px;
+    font-size: 120%;
+}
+
+div#content {
+    padding: 50px;
+    background-color: lime;
+    border: solid 1px #39ff14;
+    height: 80vh;
+}
+
+h1, h2, h3 {
+    font-family: "comic sans ms", monospace;
+}
+
+img {
+    float: right;
+    width: 400px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #39ff14;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+}
+p {
+  color: #39ff14;
+}
+
+h1 {
+  color: #39ff14;
+}
+
+title {
+  color: #39ff14;
+}
+
+h2 {
+  color: #39ff14;
+}
+img {
+    float: left;
+    width: 400px;
+    height: auto;
+}
+img#vector{
+  border: solid 10px #39ff14;
+    transition: all 3s ease-out;
+}
+img#vector:hover{
+  border: solid 5px #39ff14;
+  transition: all 3s ease-out;
+  width: 100%;
+}
+aside {
+    position: sticky;
+    width: 300px;
+    top: 0px;
+    height: 33%;
+    color: #39ff14;
+}
+
+body {
+   background-image: url("../img/PeqnDDA.gif"), linear-gradient(to right, red, orange, yellow, green, blue, purple);
+   background-position: top;
+   background-repeat: repeat;
+}
+
+#Nameme {
+    transform:rotate(10deg);
+}
+
+#Difficulties {
+  position:relative;
+  left: 30px;
+  transform:rotate(-5deg);
+}
+
+#results {
+  position:relative;
+  left: 60px;
+  transform:rotate(10deg);
+  animation: w3-spin 2s infinite linear;
+
+}
+
+
+.potato {
+  clear:left;
+  transform:translate(5000px 50000px);
+  height: 100xp;
+  filter:grayscale(50%);
+  filter: contrast(50%);
+}
+
+.Workdamit{
+  background-image: url("../img/firehack.gif");
+  background-size: cover;
+  box-shadow: 3px 3px 5px blue, -3px -3px 5px red;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px;
+  width: 30%;
+}
+
+#animated_lol {
+    width: 70px;
+    height: 47px;
+    background: #92B901;
+    color: #ffffff;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    animation: animated_div 5s 1;
+    -moz-animation: animated_div 5s 1;
+    -webkit-animation: animated_div 5s 1;
+    -o-animation: animated_div 5s 1;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+#middle
+{
+  column-count: 3;
+}
+
+#spin
+{
+  animation: w3-spin 2s infinite linear;;
+}
