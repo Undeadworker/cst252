@@ -14,5 +14,14 @@ if (person != null) {
 let person = prompt("Please enter your name", "Harry Potter");
 
 //Math
-
+function reverseString(str) {
+    // convert str to array
+    var array = str.split('');
+    // reverse of that array
+    array.reverse();
+    // convert back to str
+    var newStr = array.join('');
+    // return string
+    return newStr;
+}
 //output
